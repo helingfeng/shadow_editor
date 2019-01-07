@@ -1,0 +1,34 @@
+.FB-item {
+    position: relative;
+}
+
+.FB-item .FB-handler {
+    width: 100%;
+    height: 24px;
+    padding: 4px 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-align: right;
+}
+
+.FB-item .FB-handler a:hover{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.FB-item .FB-handler {
+    display: none;
+}
+
+.FB-item:hover .FB-handler {
+    color: #FFF;
+    background: rgba(235, 74, 68, 0.85);
+    display: block;
+}
+
+.FB-item .FB-handler a {
+    color: #FFF;
+    margin-right: 8px;
+}
